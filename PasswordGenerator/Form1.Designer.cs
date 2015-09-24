@@ -35,26 +35,29 @@
             // 
             // textAccount
             // 
+            this.textAccount.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textAccount.Location = new System.Drawing.Point(12, 12);
             this.textAccount.Name = "textAccount";
-            this.textAccount.Size = new System.Drawing.Size(270, 20);
+            this.textAccount.Size = new System.Drawing.Size(270, 21);
             this.textAccount.TabIndex = 1;
             this.textAccount.TextChanged += new System.EventHandler(this.textAccount_TextChanged);
             // 
             // textPassword
             // 
+            this.textPassword.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPassword.Location = new System.Drawing.Point(12, 65);
             this.textPassword.Name = "textPassword";
             this.textPassword.ReadOnly = true;
-            this.textPassword.Size = new System.Drawing.Size(270, 20);
+            this.textPassword.Size = new System.Drawing.Size(270, 21);
             this.textPassword.TabIndex = 2;
             // 
             // textSalt
             // 
-            this.textSalt.Location = new System.Drawing.Point(11, 39);
+            this.textSalt.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textSalt.Location = new System.Drawing.Point(12, 39);
             this.textSalt.Name = "textSalt";
             this.textSalt.PasswordChar = '*';
-            this.textSalt.Size = new System.Drawing.Size(271, 20);
+            this.textSalt.Size = new System.Drawing.Size(270, 21);
             this.textSalt.TabIndex = 0;
             this.textSalt.TextChanged += new System.EventHandler(this.textSalt_TextChanged);
             // 
