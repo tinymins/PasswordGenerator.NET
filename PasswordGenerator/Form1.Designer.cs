@@ -39,7 +39,7 @@
             this.textAccount.Location = new System.Drawing.Point(12, 12);
             this.textAccount.Name = "textAccount";
             this.textAccount.Size = new System.Drawing.Size(270, 21);
-            this.textAccount.TabIndex = 1;
+            this.textAccount.TabIndex = 0;
             this.textAccount.TextChanged += new System.EventHandler(this.textAccount_TextChanged);
             // 
             // textPassword
@@ -58,7 +58,7 @@
             this.textSalt.Name = "textSalt";
             this.textSalt.PasswordChar = '*';
             this.textSalt.Size = new System.Drawing.Size(270, 21);
-            this.textSalt.TabIndex = 0;
+            this.textSalt.TabIndex = 1;
             this.textSalt.TextChanged += new System.EventHandler(this.textSalt_TextChanged);
             // 
             // Form1
